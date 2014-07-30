@@ -1,0 +1,20 @@
+PODS:
+  - Expecta (0.3.1)
+  - FinalAlbum (0.0.1)
+  - Specta (0.2.1)
+
+DEPENDENCIES:
+  - Expecta
+  - FinalAlbum (from `../`)
+  - Specta (~> 0.2.1)
+
+EXTERNAL SOURCES:
+  FinalAlbum:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
+  FinalAlbum: c6716d5be7eed8d5e3198c89aed17bbd310eda8d
+  Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
+
+COCOAPODS: 0.33.1
