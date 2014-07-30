@@ -1,36 +1,14 @@
-#
-# Be sure to run `pod lib lint FinalAlbum.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "FinalAlbum"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of FinalAlbum."
-  s.description      = <<-DESC
-                       An optional longer description of FinalAlbum
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/FinalAlbum"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.version          = "0.0.1"
+  s.summary          = "Ablum for IOS"
+  s.homepage         = "https://github.com/loveforgeter/FinalAlbum"
   s.license          = 'MIT'
   s.author           = { "Loveforgeter" => "loveforgeter@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/FinalAlbum.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/loveforgeter/FinalAlbum.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
-  s.resources = 'Pod/Assets/*.png'
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
